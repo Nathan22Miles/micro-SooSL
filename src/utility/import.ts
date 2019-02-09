@@ -1,7 +1,8 @@
 import _ from 'underscore'
 import sqlite3 from 'sqlite3'
+import fs from 'fs'
 
-import { GlossCitation, SentenceCitation, GlossText, Citation, SentenceText, Sentence, Sign } from '../model/signs'
+import { GlossCitation, SentenceCitation, GlossText, Citation, SentenceText, Sentence, Sign } from '../model/Signs'
 
 // glossText: [gloss_id, lang_id], text
 // gloss_citation: gloss_id, citation_id
@@ -105,12 +106,31 @@ async function buildModel() {
     return signs
 }
 
+let header = `
+import { Sign, Citation, GlossText, SentenceText, GlossCitation } from '../model/Signs'
+
+export function getSigns(): Sign[] {
+    return signsData.map((sign: any) => {
+        return new Sign({
+            gloss_id: sign.gloss_id,
+            citation: new Citation(sign.citation),
+            glossTexts: sign.glossTexts.map((gt: any) => new GlossText(gt)),
+            sentenceTexts: sign.sentenceTexts.map((st: any) => new SentenceText(st)),
+        })
+    })
+}
+
+export const signsData =` 
+
+
 openDb()
     .then(() => {
         return buildModel()
     })
     .then(signs => {
-        console.log(JSON.stringify(signs.slice(0,20), null, 4))
+        let json = JSON.stringify(signs.slice(0,20), null, 4)
+        fs.writeFileSync('src/model/signsData.ts', header + json, 'utf-8')
+        console.log(`src/model/signsData.ts written`)
     })
     .catch(err => {
         console.log(`ERROR ${err}`)
