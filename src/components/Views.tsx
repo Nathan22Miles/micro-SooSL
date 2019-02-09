@@ -2,6 +2,7 @@ import React, { SFC } from 'react'
 
 import { Sign, GlossText, SentenceText } from '../model/Signs'
 import { SooSLViewModel, Gloss } from '../model/SooSLViewModel'
+import CitationPlayer from './CitationPlayer'
 import './Views.css'
 
 interface TopViewProps { svm: SooSLViewModel }
@@ -50,9 +51,11 @@ const CitationView: React.SFC<CitationViewProps> = ({svm}) => {
     if (!selectedGloss) return null
 
     let { citation } = selectedGloss.sign
+    if (!citation) return null
+
     return (
         <div className="Citation">
-            Citation Path: {citation && citation.path}
+            <CitationPlayer url={`demo/signs/${citation.path}`} />
         </div>
     )
 }

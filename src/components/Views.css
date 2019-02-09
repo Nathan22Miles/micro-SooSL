@@ -24,8 +24,14 @@
 }
 
 .Citation {
-  width: 800px;
+  width: 500px;
   border-right: solid lightgrey 1px;
+  padding-right: 10px;
+}
+
+.CitationPlayer {
+    width: 500px;
+    padding-right: 10px;
 }
 
 .TextInfo {
