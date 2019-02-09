@@ -59,6 +59,10 @@
     margin-bottom: 5px;
 }
 
-.SentenceTexts {}
+.SentenceTexts {
+    font-size: 100%;  /* place holder to avoid lint complaining about 'empty' css */
+}
 
-.SentenceText {}
+.SentenceText {
+    margin-bottom: 5px;
+}
