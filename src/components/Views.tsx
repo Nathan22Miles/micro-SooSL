@@ -2,14 +2,18 @@ import React, { SFC } from 'react'
 
 import { Sign, GlossText, SentenceText } from '../model/Signs'
 import { SooSLViewModel, Gloss } from '../model/SooSLViewModel'
+import './Views.css'
 
 interface TopViewProps { svm: SooSLViewModel }
 export const TopView: React.SFC<TopViewProps> = ({svm}) => {
     return (
         <div>
-            <CitationView svm={svm} />
-            <TextInfoView svm={svm} />
-            <GlossesListView svm={svm} />
+            <div className="Header">micro-SooSL</div>
+            <div className="Top">
+                <GlossesListView svm={svm} />
+                <CitationView svm={svm} />
+                <TextInfoView svm={svm} />
+            </div>
         </div>
     )
 }
@@ -29,7 +33,7 @@ const GlossesListView: React.SFC<GlossesListViewProps> = ({svm}) => {
 interface GlossViewProps { gloss: Gloss, svm: SooSLViewModel }
 const GlossView: SFC<GlossViewProps> = ({gloss, svm}) => {
     let { selectedGloss } = svm
-    let className = 'GlossView' + (selectedGloss && selectedGloss.text === gloss.text ? ' GlossViewSelected' : '')
+    let className = 'Gloss' + (selectedGloss && selectedGloss.text === gloss.text ? ' GlossSelected' : '')
 
     return (
         <div className={className} onClick={() => {
@@ -47,7 +51,7 @@ const CitationView: React.SFC<CitationViewProps> = ({svm}) => {
 
     let { citation } = selectedGloss.sign
     return (
-        <div className="CitationView">
+        <div className="Citation">
             Citation Path: {citation && citation.path}
         </div>
     )
@@ -56,7 +60,7 @@ const CitationView: React.SFC<CitationViewProps> = ({svm}) => {
 interface TextInfoViewProps { svm: SooSLViewModel }
 const TextInfoView: React.SFC<TextInfoViewProps> = ({svm}) => {
     return (
-        <div className="TextInfoView">
+        <div className="TextInfo">
             <GlossTextsView svm={svm} />
             <SentenceTextsView svm={svm} />
         </div>
@@ -70,7 +74,7 @@ const GlossTextsView: React.SFC<GlossTextsViewProps> = ({svm}) => {
 
     let { glossTexts } = selectedGloss.sign
     return (
-        <div className="GlossTextsView">
+        <div className="GlossTexts">
             { glossTexts.map((glossText: GlossText) => (
                 <GlossTextView glossText={glossText} />
             ))}
@@ -81,7 +85,7 @@ const GlossTextsView: React.SFC<GlossTextsViewProps> = ({svm}) => {
 interface GlossTextViewProps { glossText: GlossText}
 const GlossTextView: SFC<GlossTextViewProps> = ({glossText}) => {
     return (
-        <div className="GlossTextView">
+        <div className="GlossText">
             <div>{glossText.text}</div>
         </div>
     )
@@ -95,7 +99,7 @@ const SentenceTextsView: React.SFC<SentenceTextsViewProps> = ({svm}) => {
     let { sentenceTexts } = selectedGloss.sign
 
     return (
-        <div className="SentenceTextsView">
+        <div className="SentenceTexts">
             {sentenceTexts.map((sentenceText: SentenceText) => (
                 <SentenceTextView sentenceText={sentenceText} />
             ))}
@@ -106,7 +110,7 @@ const SentenceTextsView: React.SFC<SentenceTextsViewProps> = ({svm}) => {
 interface SentenceTextViewProps { sentenceText: SentenceText}
 const SentenceTextView: SFC<SentenceTextViewProps> = ({sentenceText}) => {
     return (
-        <div className="SentenceTextView">
+        <div className="SentenceText">
             <div>{sentenceText.text}</div>
         </div>
     )

@@ -1,4 +1,5 @@
 import { observable } from 'mobx'
+import _ from 'underscore'
 
 import { Sign } from './Signs'
 
@@ -27,5 +28,5 @@ export function getGlosses(signs: Sign[]): Gloss[] {
         })
     })
 
-    return glosses
+    return _.sortBy(glosses, 'text')
 }

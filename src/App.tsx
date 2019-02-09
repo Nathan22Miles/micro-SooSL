@@ -5,13 +5,15 @@ import { TopView } from './components/Views'
 import { SooSLViewModel, getGlosses } from './model/SooSLViewModel'
 import { getSigns } from './model/signsData'
 
-@observer
+@observer // cause component to re-render whenver an observable item in svm changes
 class App extends Component {
   constructor(props: any) {
     super(props)
+    this.svm = new SooSLViewModel(getGlosses(getSigns()))
+    this.svm.selectedGloss = this.svm.glosses[0]
   }
 
-  svm = new SooSLViewModel(getGlosses(getSigns()))
+  svm: SooSLViewModel
 
   render() {
     let { svm } = this
@@ -20,9 +22,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
-          micro-SooSL
-        </header>
         <body>
           <TopView svm={svm} />
         </body>
@@ -31,4 +30,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default App
