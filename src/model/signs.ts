@@ -40,7 +40,7 @@ export class SentenceText {
 }
 
 
-
+// Temporary Classes used during import
 
 export class GlossCitation {
     public gloss_id: number = 0

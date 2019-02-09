@@ -1,3 +1,12 @@
+display view, no player
+add css
+add player
+push to sl.octopus.org
+update nginx config
+update readme
+    roadmap to full soosl
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Getting demo data
