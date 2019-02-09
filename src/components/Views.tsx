@@ -1,18 +1,10 @@
 import React, { SFC } from 'react'
 
 import { Sign, GlossText, SentenceText } from '../model/Signs'
+import { SooSLViewModel, Gloss } from '../model/SooSLViewModel'
 
-class Gloss {
-    public text = ''
-    public sign = new Sign({})
-}
-
-class SooSLViewModel {
-    selectedGloss?: Gloss
-    glosses: Gloss[] = []
-}
-
-const TopView: React.SFC<SooSLViewModel> = (svm) => {
+interface TopViewProps { svm: SooSLViewModel }
+export const TopView: React.SFC<TopViewProps> = ({svm}) => {
     return (
         <div>
             <CitationView svm={svm} />
