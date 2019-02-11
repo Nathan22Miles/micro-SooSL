@@ -14,8 +14,8 @@ You can see the resulting app running at https://nathan22miles.github.io/micro-S
 * Clone the repositiory https://github.com/Nathan22Miles/micro-SooSL into a directory on your machine
 * In the project directory enter
 
-    yarn install
-    yarn start
+    * yarn install
+    * yarn start
 
 This opens a browser and runs the app in the development mode.
 You will also see any lint errors in the console.
