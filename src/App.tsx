@@ -4,6 +4,8 @@ import { observer } from 'mobx-react'
 import { TopView } from './components/Views'
 import { SooSLViewModel, getGlosses } from './model/SooSLViewModel'
 import { getSigns } from './model/signsData'
+import PositionChooser from './components/PositionChooser'
+import { Root } from './Root'
 
 @observer // cause component to re-render whenver an observable item in svm changes
 class App extends Component {
@@ -14,6 +16,7 @@ class App extends Component {
   }
 
   svm: SooSLViewModel
+  root = new Root()
 
   render() {
     let { svm } = this
@@ -23,6 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <body>
+          <PositionChooser root={this.root}/>
           <TopView svm={svm} />
         </body>
       </div>
