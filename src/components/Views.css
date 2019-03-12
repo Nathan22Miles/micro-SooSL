@@ -1,3 +1,11 @@
+.selected-feature {
+  fill: red;
+}
+
+.unselected-feature {
+  fill: black;
+}
+
 .Top {
   display: flex;
   width: 100%;
