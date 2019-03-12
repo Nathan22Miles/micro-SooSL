@@ -10,7 +10,6 @@ const features = [
 
 function Wrapper(props: any) {
     let { feature, contents, root } = props
-    console.log('Wrapper', feature)
     let { positions } = root
 
     let className = positions.includes(feature) ? 'selected-feature' : 'unselected-feature'
