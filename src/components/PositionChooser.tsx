@@ -3,13 +3,9 @@ import { Root } from '../Root'
 import { observer } from 'mobx-react'
 import './Views.css'
 
-interface IPositionChooser { 
-    root: Root,
-}
-
 const features = [
-    ['left-eye', (className: string, onClick: any) => <ellipse ry="16" rx="25.5" cy="138.4375" cx="242" className={className} onClick={onClick} />],
-    ['right-eye', (className: string, onClick: any) => <ellipse ry="16" rx="25.5" cy="139.4375" cx="329" className={className} onClick={onClick} />]
+    ['left-eye', (props: any) => <ellipse {...props} ry="16" rx="25.5" cy="138.4375" cx="242" />],
+    ['right-eye', (props: any) => <ellipse {...props} ry="16" rx="25.5" cy="139.4375" cx="329" />]
 ]
 
 function Wrapper(props: any) {
@@ -29,7 +25,11 @@ function Wrapper(props: any) {
         }
     }
 
-    return contents(className, onClick) 
+    return contents({className, onClick}) 
+}
+
+interface IPositionChooser {
+    root: Root,
 }
 
 @observer
