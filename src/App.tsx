@@ -25,10 +25,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <body>
           <PositionChooser root={this.root}/>
           <TopView svm={svm} />
-        </body>
       </div>
     )
   }
