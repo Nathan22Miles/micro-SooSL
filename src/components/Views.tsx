@@ -24,8 +24,8 @@ const GlossesListView: React.SFC<GlossesListViewProps> = ({svm}) => {
     let { glosses, selectedGloss } = svm
     return (
         <div className="GlossesList">
-            { glosses.map(gloss => (
-                <GlossView gloss={gloss} svm={svm} />
+            { glosses.map((gloss, i) => (
+                <GlossView key={i} gloss={gloss} svm={svm} />
             ))}
         </div>
     )
@@ -78,8 +78,8 @@ const GlossTextsView: React.SFC<GlossTextsViewProps> = ({svm}) => {
     let { glossTexts } = selectedGloss.sign
     return (
         <div className="GlossTexts">
-            { glossTexts.map((glossText: GlossText) => (
-                <GlossTextView glossText={glossText} />
+            { glossTexts.map((glossText: GlossText, i) => (
+                <GlossTextView key={i} glossText={glossText} />
             ))}
         </div>
     )
@@ -103,8 +103,8 @@ const SentenceTextsView: React.SFC<SentenceTextsViewProps> = ({svm}) => {
 
     return (
         <div className="SentenceTexts">
-            {sentenceTexts.map((sentenceText: SentenceText) => (
-                <SentenceTextView sentenceText={sentenceText} />
+            {sentenceTexts.map((sentenceText: SentenceText, i) => (
+                <SentenceTextView key={i} sentenceText={sentenceText} />
             ))}
         </div>
     )
