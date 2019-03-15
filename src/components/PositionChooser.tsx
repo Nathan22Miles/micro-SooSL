@@ -3,24 +3,21 @@ import { Root } from '../Root'
 import { observer } from 'mobx-react'
 import './Views.css'
 
-const features = [
-    ['left-eye', (props: any) => <ellipse {...props} ry="16" rx="25.5" cy="138.4375" cx="242" />],
-    ['right-eye', (props: any) => <ellipse {...props} ry="16" rx="25.5" cy="139.4375" cx="329" />]
-]
+import features from './positionFeatures'
 
 function Wrapper(props: any) {
-    let { feature, contents, root } = props
+    let { featureName, contents, root } = props
     let { positions } = root
 
-    let className = positions.includes(feature) ? 'selected-feature' : 'unselected-feature'
+    let className = positions.includes(featureName) ? 'selected-feature' : 'unselected-feature'
     
     let onClick = () => {
-        console.log('onClick', feature)
-        let i = positions.indexOf(feature)
+        console.log('onClick', featureName)
+        let i = positions.indexOf(featureName)
         if (i >= 0) {
             positions.splice(i, 1)
         } else {
-            positions.push(feature)
+            positions.push(featureName)
         }
     }
 
@@ -34,7 +31,7 @@ interface IPositionChooser {
 @observer
 export default class PositionChooser extends Component<IPositionChooser> {
     render() {
-        (this.props.root.positions).join('')
+        (this.props.root.positions).join('') // look at all positions to force a redraw
 
         return (
             <div>
@@ -42,7 +39,7 @@ export default class PositionChooser extends Component<IPositionChooser> {
                     <ellipse ry="154.5" rx="111.5" cy="200.9375" cx="287" fill="#00f" />
                     {
                         features.map(feat => 
-                            <Wrapper key={feat[0]} feature={feat[0]} contents={feat[1]} root={this.props.root} />
+                            <Wrapper key={feat[0]} featureName={feat[0]} contents={feat[1]} root={this.props.root} />
                         )
                     }
                 </svg>

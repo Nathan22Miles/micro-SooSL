@@ -1,84 +1,87 @@
 import React, { SFC } from 'react'
 
-import { Sign, GlossText, SentenceText } from '../model/Signs'
-import { SooSLViewModel, Gloss } from '../model/SooSLViewModel'
+import { Component, Dialect, GrammarCategory, GlossText, Sentence,
+         ExtraText, ExtraMediaFile, Sens, Sign, Project } from '../model/Project'
+import { Root } from '../Root'
+
 import CitationPlayer from './CitationPlayer'
 import './Views.css'
 
-interface TopViewProps { svm: SooSLViewModel }
-export const TopView: React.SFC<TopViewProps> = ({svm}) => {
+interface TopViewProps { root: Root }
+export const TopView: SFC<TopViewProps> = ({root}) => {
     return (
         <div>
             <div className="Header">micro-SooSL</div>
             <div className="Top">
-                <GlossesListView svm={svm} />
-                <CitationView svm={svm} />
-                <TextInfoView svm={svm} />
+                <GlossesListView root={root} />
+                <CitationView root={root} />
+                <TextInfoView root={root} />
             </div>
         </div>
     )
 }
 
-interface GlossesListViewProps { svm: SooSLViewModel }
-const GlossesListView: React.SFC<GlossesListViewProps> = ({svm}) => {
-    let { glosses, selectedGloss } = svm
+interface GlossesListViewProps { root: Root }
+const GlossesListView: SFC<GlossesListViewProps> = ({root}) => {
+    let { glossTexts } = root
+    console.log('render GLV', glossTexts.length)
     return (
         <div className="GlossesList">
-            { glosses.map((gloss, i) => (
-                <GlossView key={i} gloss={gloss} svm={svm} />
+            {glossTexts.map((glossText, i) => (
+                <GlossView key={i} glossText={glossText} root={root} />
             ))}
         </div>
     )
 }
 
-interface GlossViewProps { gloss: Gloss, svm: SooSLViewModel }
-const GlossView: SFC<GlossViewProps> = ({gloss, svm}) => {
-    let { selectedGloss } = svm
-    let className = 'Gloss' + (selectedGloss && selectedGloss.text === gloss.text ? ' GlossSelected' : '')
+interface GlossViewProps { glossText: GlossText, root: Root }
+const GlossView: SFC<GlossViewProps> = ({glossText, root}) => {
+    let { selectedGlossText } = root
+    let className = 'Gloss' + (selectedGlossText && selectedGlossText.text === glossText.text ? ' GlossSelected' : '')
 
     return (
         <div className={className} onClick={() => {
-                    svm.selectedGloss = gloss
+                    root.selectedGlossText = glossText
                 }}>
-            <div>{gloss.text}</div>
+            <div>{glossText.text}</div>
         </div>
     )
 }
 
-interface CitationViewProps { svm: SooSLViewModel }
-const CitationView: React.SFC<CitationViewProps> = ({svm}) => {
-    let { selectedGloss } = svm
-    if (!selectedGloss) return null
+interface CitationViewProps { root: Root }
+const CitationView: SFC<CitationViewProps> = ({root}) => {
+    let { selectedGlossText } = root
+    if (!selectedGlossText) return null
 
-    let { citation } = selectedGloss.sign
-    if (!citation) return null
+    let { sign } = selectedGlossText.sens
+    if (!sign) return null
 
     return (
         <div className="Citation">
-            <CitationPlayer url={`demo/signs/${citation.path}`} />
+            <CitationPlayer url={`demo/signs/${sign.path.slice(2)}`} />
         </div>
     )
 }
 
-interface TextInfoViewProps { svm: SooSLViewModel }
-const TextInfoView: React.SFC<TextInfoViewProps> = ({svm}) => {
+interface TextInfoViewProps { root: Root }
+const TextInfoView: SFC<TextInfoViewProps> = ({root}) => {
     return (
         <div className="TextInfo">
-            <GlossTextsView svm={svm} />
-            <SentenceTextsView svm={svm} />
+            <GlossTextsView root={root} />
+            <SentencesView root={root} />
         </div>
     )
 }
 
-interface GlossTextsViewProps { svm: SooSLViewModel }
-const GlossTextsView: React.SFC<GlossTextsViewProps> = ({svm}) => {
-    let { selectedGloss } = svm
-    if (!selectedGloss) return null
+interface GlossTextsViewProps { root: Root }
+const GlossTextsView: SFC<GlossTextsViewProps> = ({root}) => {
+    let { selectedGlossText } = root
+    if (!selectedGlossText) return null
 
-    let { glossTexts } = selectedGloss.sign
+    let { gloss_texts } = selectedGlossText.sens
     return (
         <div className="GlossTexts">
-            { glossTexts.map((glossText: GlossText, i) => (
+            { gloss_texts.map((glossText: GlossText, i) => (
                 <GlossTextView key={i} glossText={glossText} />
             ))}
         </div>
@@ -94,27 +97,27 @@ const GlossTextView: SFC<GlossTextViewProps> = ({glossText}) => {
     )
 }
 
-interface SentenceTextsViewProps { svm: SooSLViewModel }
-const SentenceTextsView: React.SFC<SentenceTextsViewProps> = ({svm}) => {
-    let { selectedGloss } = svm
-    if (!selectedGloss) return null
+interface SentencesViewProps { root: Root }
+const SentencesView: SFC<SentencesViewProps> = ({root}) => {
+    let { selectedGlossText } = root
+    if (!selectedGlossText) return null
 
-    let { sentenceTexts } = selectedGloss.sign
+    let { sentences } = selectedGlossText.sens
 
     return (
-        <div className="SentenceTexts">
-            {sentenceTexts.map((sentenceText: SentenceText, i) => (
-                <SentenceTextView key={i} sentenceText={sentenceText} />
+        <div className="Sentences">
+            {sentences.map((Sentence: Sentence, i) => (
+                <SentenceView key={i} sentence={Sentence} />
             ))}
         </div>
     )
 }
 
-interface SentenceTextViewProps { sentenceText: SentenceText}
-const SentenceTextView: SFC<SentenceTextViewProps> = ({sentenceText}) => {
+interface SentenceViewProps { sentence: Sentence}
+const SentenceView: SFC<SentenceViewProps> = ({sentence}) => {
     return (
-        <div className="SentenceText">
-            <div>{sentenceText.text}</div>
+        <div className="Sentence">
+            <div>{sentence.sentence_texts[0].text}</div>
         </div>
     )
 }

@@ -1,9 +1,11 @@
 .selected-feature {
   fill: red;
+  cursor: pointer;
 }
 
 .unselected-feature {
   fill: black;
+  cursor: pointer;
 }
 
 .Top {

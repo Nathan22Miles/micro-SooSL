@@ -6,29 +6,46 @@ import { SooSLViewModel, getGlosses } from './model/SooSLViewModel'
 import { getSigns } from './model/signsData'
 import PositionChooser from './components/PositionChooser'
 import { Root } from './Root'
+import { Project } from './model/Project'
+import { observable } from 'mobx'
+
 
 @observer // cause component to re-render whenver an observable item in svm changes
 class App extends Component {
   constructor(props: any) {
     super(props)
-    this.svm = new SooSLViewModel(getGlosses(getSigns()))
-    this.svm.selectedGloss = this.svm.glosses[0]
+
+    this.componentDidMount = this.componentDidMount.bind(this)
   }
 
-  svm: SooSLViewModel
   root = new Root()
+  @observable message = 'Loading...'
 
   render() {
-    let { svm } = this
-
-    let gloss = svm.selectedGloss  // access gloss to force re-render when selectedGloss changes
+    if (this.message) {
+      return (<div>{this.message} </div>)
+    }
 
     return (
       <div className="App">
-          <PositionChooser root={this.root}/>
-          <TopView svm={svm} />
+        <PositionChooser root={this.root}/>
+        <TopView root={this.root} />
       </div>
     )
+  }
+
+  componentDidMount() {
+    fetch('demo/project.json')
+      .then((response: any) => response.json())
+      .then((json: any) => {
+        console.log('json', json)
+        this.root.project = new Project(json)
+        this.root.setGlossTexts()
+        this.message = ''
+      })
+      .catch(err => {
+        this.message = err.message
+      })
   }
 }
 
