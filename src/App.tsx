@@ -22,6 +22,9 @@ class App extends Component {
   @observable message = 'Loading...'
 
   render() {
+    this.root.selectedGlossText    // redraw when selected gloss changes
+    this.root.positions.length     // redraw when positions change
+
     if (this.message) {
       return (<div>{this.message} </div>)
     }
@@ -41,6 +44,7 @@ class App extends Component {
         console.log('json', json)
         this.root.project = new Project(json)
         this.root.setGlossTexts()
+        this.root.setPositions([])
         this.message = ''
       })
       .catch(err => {

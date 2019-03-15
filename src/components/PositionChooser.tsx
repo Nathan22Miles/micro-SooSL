@@ -7,18 +7,21 @@ import features from './positionFeatures'
 
 function Wrapper(props: any) {
     let { featureName, contents, root } = props
-    let { positions } = root
 
-    let className = positions.includes(featureName) ? 'selected-feature' : 'unselected-feature'
+    let className = root.positions.includes(featureName) ? 'selected-feature' : 'unselected-feature'
     
     let onClick = () => {
         console.log('onClick', featureName)
+        let positions = root.positions.slice()
+
         let i = positions.indexOf(featureName)
         if (i >= 0) {
             positions.splice(i, 1)
         } else {
             positions.push(featureName)
         }
+
+        root.setPositions(positions)
     }
 
     return contents({className, onClick}) 

@@ -23,11 +23,11 @@ export const TopView: SFC<TopViewProps> = ({root}) => {
 
 interface GlossesListViewProps { root: Root }
 const GlossesListView: SFC<GlossesListViewProps> = ({root}) => {
-    let { glossTexts } = root
-    console.log('render GLV', glossTexts.length)
+    let { filteredGlossTexts } = root
+
     return (
         <div className="GlossesList">
-            {glossTexts.map((glossText, i) => (
+            {filteredGlossTexts.map((glossText, i) => (
                 <GlossView key={i} glossText={glossText} root={root} />
             ))}
         </div>
@@ -58,7 +58,7 @@ const CitationView: SFC<CitationViewProps> = ({root}) => {
 
     return (
         <div className="Citation">
-            <CitationPlayer url={`demo/signs/${sign.path.slice(2)}`} />
+            <CitationPlayer url={`demo/${sign.path.slice(2)}`} />
         </div>
     )
 }
