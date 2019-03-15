@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { observer } from 'mobx-react'
 
 import { TopView } from './components/Views'
-import { SooSLViewModel, getGlosses } from './model/SooSLViewModel'
-import { getSigns } from './model/signsData'
 import PositionChooser from './components/PositionChooser'
 import { Root } from './Root'
 import { Project } from './model/Project'
