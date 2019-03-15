@@ -25,3 +25,9 @@ Visual Studio Code (VSC) is an excellent way to do this.
 VSC support context sensitive editing for Typescript as well as the ability
 to set breakpoints in your code on the browser for debugging.
 
+## Push a copy to nathan22miles.github.io/micro-SooSL
+
+    yarn build
+    yarn deploy
+    -- it might take a few minutes to actually do the update
+
