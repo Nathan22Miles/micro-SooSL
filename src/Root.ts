@@ -17,7 +17,7 @@ export class Root {
         // one of the select components
         if (positions.length) {
             this.filteredGlossTexts = this.glossTexts.filter(gt => {
-                return gt.sens.sign.components.some(component => positions.includes(component.code))
+                return gt.sense.sign.component_codes.some(code => positions.includes(code))
             })
         }
         else {

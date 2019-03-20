@@ -7,31 +7,13 @@
             "id": 2,
             "path": "./signs/SLOW(3)_id2.mp4",
             "hash": "70ee24d5d39a6057fbbb1527c46697f1",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "19a",
-                    "description": "Baby Thumb"
-                },
-                {
-                    "code": "690",
-                    "description": "Jaw middle, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1011",
+                "1028",
+                "1030",
+                "19a",
+                "690"
             ],
             "senses": [
                 {
@@ -97,47 +79,17 @@
             "id": 3,
             "path": "./signs/SLOW-E1-201402SR_id3.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "15a",
-                    "description": "Flat"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                },
-                {
-                    "code": "504",
-                    "description": null
-                },
-                {
-                    "code": "530",
-                    "description": "Lower arm"
-                }
+            "component_codes": [
+                "1002",
+                "1012",
+                "1021",
+                "1025",
+                "1028",
+                "1030",
+                "15a",
+                "500",
+                "504",
+                "530"
             ],
             "senses": [
                 {
@@ -203,35 +155,14 @@
             "id": 4,
             "path": "./signs/COMPUTER-E2-201402SR_id4.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1023",
-                    "description": "Circular"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1c5",
-                    "description": "Middle Hinge"
-                },
-                {
-                    "code": "504",
-                    "description": null
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1023",
+                "1027",
+                "1029",
+                "1c5",
+                "504"
             ],
             "senses": [
                 {
@@ -308,39 +239,15 @@
             "id": 5,
             "path": "./signs/FATHER-E2-201402SR_id5.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "670",
-                    "description": "Forehead"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "14c",
+                "670"
             ],
             "senses": [
                 {
@@ -438,47 +345,17 @@
             "id": 6,
             "path": "./signs/FATHER (older)-E2-201402AB_id6.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "1f5",
-                    "description": "Thumb"
-                },
-                {
-                    "code": "670",
-                    "description": "Forehead"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1030",
+                "14c",
+                "1f5",
+                "670"
             ],
             "senses": [
                 {
@@ -550,39 +427,15 @@
             "id": 7,
             "path": "./signs/FATHER-E5-201402AB_id7.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "5f8",
-                    "description": "Chin"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "14c",
+                "5f8"
             ],
             "senses": [
                 {
@@ -654,47 +507,17 @@
             "id": 8,
             "path": "./signs/SIGN-FLUENTLY-E5-201402AB_id8.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1024",
-                    "description": "Complex"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "152",
-                    "description": "Five Fingers Spread, Thumb Forward"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                }
+            "component_codes": [
+                "1003",
+                "1010",
+                "1012",
+                "1021",
+                "1024",
+                "1027",
+                "1028",
+                "152",
+                "203",
+                "335"
             ],
             "senses": [
                 {
@@ -760,43 +583,16 @@
             "id": 9,
             "path": "./signs/Write-AB_id9.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "15a",
-                    "description": "Flat"
-                },
-                {
-                    "code": "1eb",
-                    "description": "Index Thumb Circle"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1002",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1030",
+                "15a",
+                "1eb",
+                "500"
             ],
             "senses": [
                 {
@@ -868,55 +664,19 @@
             "id": 10,
             "path": "./signs/WRITE-SLOPPY-E2-201402AB_id10.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1024",
-                    "description": "Complex"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "15a",
-                    "description": "Flat"
-                },
-                {
-                    "code": "1eb",
-                    "description": "Index Thumb Circle"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1002",
+                "1011",
+                "1012",
+                "1022",
+                "1024",
+                "1026",
+                "1029",
+                "1035",
+                "15a",
+                "1eb",
+                "335",
+                "500"
             ],
             "senses": [
                 {
@@ -988,47 +748,17 @@
             "id": 12,
             "path": "./signs/BIRTHDAY-E2-201402ST_id12.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1c5",
-                    "description": "Middle Hinge"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5b0",
-                    "description": "Chest (center)"
-                },
-                {
-                    "code": "5f8",
-                    "description": "Chin"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1030",
+                "1c5",
+                "335",
+                "5b0",
+                "5f8"
             ],
             "senses": [
                 {
@@ -1110,59 +840,20 @@
             "id": 13,
             "path": "./signs/BIRTHDAY-E2-201402SR_id13.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                },
-                {
-                    "code": "5f8",
-                    "description": "Chin"
-                }
+            "component_codes": [
+                "100",
+                "1002",
+                "1010",
+                "1011",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1030",
+                "14c",
+                "203",
+                "500",
+                "5f8"
             ],
             "senses": [
                 {
@@ -1244,55 +935,19 @@
             "id": 14,
             "path": "./signs/BIG-HEAD-E2-201402ST_id14.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "1e1",
-                    "description": "Index Thumb Side, Index Bent"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5d8",
-                    "description": "High side of head, weak side"
-                },
-                {
-                    "code": "5e0",
-                    "description": "High side of head, strong side"
-                },
-                {
-                    "code": "660",
-                    "description": "Temple, weak side"
-                },
-                {
-                    "code": "668",
-                    "description": "Temple, strong side"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1035",
+                "1e1",
+                "335",
+                "5d8",
+                "5e0",
+                "660",
+                "668"
             ],
             "senses": [
                 {
@@ -1405,47 +1060,17 @@
             "id": 15,
             "path": "./signs/BRAG-E3-201402SR_id15.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1f5",
-                    "description": "Thumb"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "590",
-                    "description": "Hip, weak side"
-                },
-                {
-                    "code": "598",
-                    "description": "Hip, strong side"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1021",
+                "1027",
+                "1029",
+                "1030",
+                "1f5",
+                "335",
+                "590",
+                "598"
             ],
             "senses": [
                 {
@@ -1573,31 +1198,13 @@
             "id": 16,
             "path": "./signs/BIRTHDAY-E5-201402ST_id16.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1031",
-                    "description": "Grasp"
-                },
-                {
-                    "code": "1ea",
-                    "description": "Index Thumb Curve, Thumb Under"
-                },
-                {
-                    "code": "638",
-                    "description": "Ear, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1028",
+                "1030",
+                "1031",
+                "1ea",
+                "638"
             ],
             "senses": [
                 {
@@ -1679,47 +1286,17 @@
             "id": 17,
             "path": "./signs/BIRTHDAY(2)_id17.mp4",
             "hash": "f2d2e4742a99b04ca81b954f56f933d7",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1024",
-                    "description": "Complex"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "15a",
-                    "description": "Flat"
-                }
+            "component_codes": [
+                "100",
+                "1002",
+                "1010",
+                "1012",
+                "1024",
+                "1027",
+                "1028",
+                "1030",
+                "1035",
+                "15a"
             ],
             "senses": [
                 {
@@ -1801,51 +1378,18 @@
             "id": 18,
             "path": "./signs/BIRTHDAY(3)_id18.mp4",
             "hash": "2ddd557d944beb20e372a86731146996",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "144",
-                    "description": "Four Fingers"
-                },
-                {
-                    "code": "660",
-                    "description": "Temple, weak side"
-                },
-                {
-                    "code": "668",
-                    "description": "Temple, strong side"
-                },
-                {
-                    "code": "698",
-                    "description": "Jaw back, weak side"
-                },
-                {
-                    "code": "6a0",
-                    "description": "Jaw back, strong side"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1022",
+                "1027",
+                "1028",
+                "1030",
+                "144",
+                "660",
+                "668",
+                "698",
+                "6a0"
             ],
             "senses": [
                 {
@@ -1927,43 +1471,16 @@
             "id": 19,
             "path": "./signs/BRAG-E6-201402SR_id19.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "192",
-                    "description": "Baby Up"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5b0",
-                    "description": "Chest (center)"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1021",
+                "1027",
+                "1029",
+                "1030",
+                "192",
+                "335",
+                "5b0"
             ],
             "senses": [
                 {
@@ -2098,35 +1615,14 @@
             "id": 20,
             "path": "./signs/BUT-E2-201402SR_id20.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                }
+            "component_codes": [
+                "100",
+                "1003",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1030"
             ],
             "senses": [
                 {
@@ -2203,51 +1699,18 @@
             "id": 21,
             "path": "./signs/CAPITOL-E2-201402AB_id21.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "668",
-                    "description": "Temple, strong side"
-                }
+            "component_codes": [
+                "100",
+                "1001",
+                "1010",
+                "1011",
+                "1012",
+                "1021",
+                "1025",
+                "1028",
+                "1030",
+                "203",
+                "668"
             ],
             "senses": [
                 {
@@ -2313,39 +1776,15 @@
             "id": 22,
             "path": "./signs/OUTSIDE-E2-201402SR_id22.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "154",
-                    "description": "Five Fingers Spread Cup Open"
-                },
-                {
-                    "code": "578",
-                    "description": "Top of shoulder, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "154",
+                "578"
             ],
             "senses": [
                 {
@@ -2655,47 +2094,17 @@
             "id": 23,
             "path": "./signs/CLERC-E2-201402ST_id23.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "12d",
-                    "description": "Index Middle Unit, Thumb Side"
-                },
-                {
-                    "code": "132",
-                    "description": "Index Middle Unit Hinge, Thumb Side"
-                },
-                {
-                    "code": "628",
-                    "description": "Cheek, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1012",
+                "1021",
+                "1026",
+                "1029",
+                "1030",
+                "12d",
+                "132",
+                "628"
             ],
             "senses": [
                 {
@@ -2777,43 +2186,16 @@
             "id": 24,
             "path": "./signs/COOKIE-E2-201402SR_id24.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "154",
-                    "description": "Five Fingers Spread Cup Open"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1011",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "14c",
+                "154",
+                "500"
             ],
             "senses": [
                 {
@@ -2885,39 +2267,15 @@
             "id": 25,
             "path": "./signs/COOKIE-E5-201402AB_id25.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1ed",
-                    "description": "Index Thumb Cup Open"
-                },
-                {
-                    "code": "600",
-                    "description": "Lips"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "1ed",
+                "600"
             ],
             "senses": [
                 {
@@ -2994,39 +2352,15 @@
             "id": 27,
             "path": "./signs/COP-E2-201402SR_id27.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "154",
-                    "description": "Five Fingers Spread Cup Open"
-                },
-                {
-                    "code": "5b8",
-                    "description": "Chest, weak side"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1028",
+                "1030",
+                "154",
+                "5b8"
             ],
             "senses": [
                 {
@@ -3103,43 +2437,16 @@
             "id": 28,
             "path": "./signs/EARLY-E2-201402SR_id28.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "1dc",
-                    "description": "Index Thumb Side"
-                },
-                {
-                    "code": "570",
-                    "description": "Top of shoulder, weak side"
-                },
-                {
-                    "code": "578",
-                    "description": "Top of shoulder, strong side"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1035",
+                "1dc",
+                "570",
+                "578"
             ],
             "senses": [
                 {
@@ -3205,43 +2512,16 @@
             "id": 29,
             "path": "./signs/EARLY-E5-201402SR_id29.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "179",
-                    "description": "Oval, No Thumb"
-                },
-                {
-                    "code": "1c5",
-                    "description": "Middle Hinge"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1002",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1030",
+                "179",
+                "1c5",
+                "500"
             ],
             "senses": [
                 {
@@ -3313,47 +2593,17 @@
             "id": 30,
             "path": "./signs/EARLY-E5-201402AB_id30.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1c5",
-                    "description": "Middle Hinge"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1002",
+                "1010",
+                "1012",
+                "1021",
+                "1025",
+                "1028",
+                "1030",
+                "1c5",
+                "203",
+                "500"
             ],
             "senses": [
                 {
@@ -3419,47 +2669,17 @@
             "id": 31,
             "path": "./signs/EARLY-E8-201402AB_id31.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1c4",
-                    "description": "Middle Down"
-                },
-                {
-                    "code": "1c5",
-                    "description": "Middle Hinge"
-                },
-                {
-                    "code": "618",
-                    "description": "Nose"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1030",
+                "1c4",
+                "1c5",
+                "618"
             ],
             "senses": [
                 {
@@ -3525,39 +2745,15 @@
             "id": 32,
             "path": "./signs/FALSE-E2-201402ST_id32.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "618",
-                    "description": "Nose"
-                }
+            "component_codes": [
+                "100",
+                "1001",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1035",
+                "618"
             ],
             "senses": [
                 {
@@ -3623,35 +2819,14 @@
             "id": 33,
             "path": "./signs/FAT2-E5-201402ST_id33.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "157",
-                    "description": "Five Fingers Spread Hinge"
-                },
-                {
-                    "code": "32a",
-                    "description": "Cheek movement"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "157",
+                "32a"
             ],
             "senses": [
                 {
@@ -3754,31 +2929,13 @@
             "id": 34,
             "path": "./signs/FAT-E7-201402SR_id34.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1005",
-                    "description": "Fingerspelled (mostly lexicalized)"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1ce",
-                    "description": "Middle Ring Baby on Circle"
-                },
-                {
-                    "code": "1f7",
-                    "description": "Thumb Side Diagonal"
-                },
-                {
-                    "code": "1fb",
-                    "description": "Thumb Between Index Middle"
-                },
-                {
-                    "code": "5a8",
-                    "description": "Chest, strong side"
-                }
+            "component_codes": [
+                "1005",
+                "1010",
+                "1ce",
+                "1f7",
+                "1fb",
+                "5a8"
             ],
             "senses": [
                 {
@@ -3860,51 +3017,18 @@
             "id": 35,
             "path": "./signs/FATHER-HEAVENLY-E2-201402SR_id35.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "1f7",
-                    "description": "Thumb Side Diagonal"
-                },
-                {
-                    "code": "314",
-                    "description": "Eye movement"
-                },
-                {
-                    "code": "670",
-                    "description": "Forehead"
-                }
+            "component_codes": [
+                "1003",
+                "1010",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1030",
+                "14c",
+                "1f7",
+                "314",
+                "670"
             ],
             "senses": [
                 {
@@ -3976,43 +3100,16 @@
             "id": 36,
             "path": "./signs/FAVORITE-E2-201402SR_id36.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "110",
-                    "description": "Index Middle Bent"
-                },
-                {
-                    "code": "668",
-                    "description": "Temple, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "1035",
+                "110",
+                "668"
             ],
             "senses": [
                 {
@@ -4084,35 +3181,14 @@
             "id": 39,
             "path": "./signs/FATHER-older-E5-201402AB_id39.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "1f5",
-                    "description": "Thumb"
-                },
-                {
-                    "code": "5f8",
-                    "description": "Chin"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1028",
+                "1030",
+                "14c",
+                "1f5",
+                "5f8"
             ],
             "senses": [
                 {
@@ -4184,39 +3260,15 @@
             "id": 40,
             "path": "./signs/FAVORITE-E2-201402AB_id40.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1c5",
-                    "description": "Middle Hinge"
-                },
-                {
-                    "code": "5f8",
-                    "description": "Chin"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "1c5",
+                "5f8"
             ],
             "senses": [
                 {
@@ -4282,59 +3334,20 @@
             "id": 41,
             "path": "./signs/FAVORITE-E8-201402AB_id41.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "32a",
-                    "description": "Cheek movement"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5c8",
-                    "description": "Low side of head, weak side"
-                },
-                {
-                    "code": "5d0",
-                    "description": "Low side of head, strong side"
-                }
+            "component_codes": [
+                "1003",
+                "1010",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1035",
+                "14c",
+                "203",
+                "32a",
+                "335",
+                "5c8",
+                "5d0"
             ],
             "senses": [
                 {
@@ -4400,35 +3413,14 @@
             "id": 42,
             "path": "./signs/FLY-E2-201402SR_id42.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "19c",
-                    "description": "Baby Index Thumb"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1022",
+                "1026",
+                "1028",
+                "19c"
             ],
             "senses": [
                 {
@@ -4526,43 +3518,16 @@
             "id": 43,
             "path": "./signs/FOR-FOR-E2-201402ST_id43.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "5e0",
-                    "description": "High side of head, strong side"
-                }
+            "component_codes": [
+                "100",
+                "1001",
+                "1011",
+                "1012",
+                "1021",
+                "1026",
+                "1029",
+                "1035",
+                "5e0"
             ],
             "senses": [
                 {
@@ -4665,51 +3630,18 @@
             "id": 44,
             "path": "./signs/Gallaudet-SR_id44.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "1ef",
-                    "description": "Index Thumb Hinge Large"
-                },
-                {
-                    "code": "1f4",
-                    "description": "Index Thumb Angle"
-                },
-                {
-                    "code": "628",
-                    "description": "Cheek, strong side"
-                },
-                {
-                    "code": "658",
-                    "description": "Eyebrow, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1035",
+                "1ef",
+                "1f4",
+                "628",
+                "658"
             ],
             "senses": [
                 {
@@ -4874,43 +3806,16 @@
             "id": 45,
             "path": "./signs/GARBAGE-E2-201402SR_id45.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "540",
-                    "description": "Outer elbow"
-                }
+            "component_codes": [
+                "100",
+                "1001",
+                "1011",
+                "1012",
+                "1022",
+                "1027",
+                "1028",
+                "1030",
+                "540"
             ],
             "senses": [
                 {
@@ -4982,39 +3887,15 @@
             "id": 46,
             "path": "./signs/GARBAGE-E5a-201402AB_id46.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "115",
-                    "description": "Index Middle Unit"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "115",
+                "203"
             ],
             "senses": [
                 {
@@ -5080,39 +3961,15 @@
             "id": 47,
             "path": "./signs/GARBAGE-E8-201402AB_id47.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "16e",
-                    "description": "Cup Open, Thumb Side"
-                },
-                {
-                    "code": "668",
-                    "description": "Temple, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "16e",
+                "668"
             ],
             "senses": [
                 {
@@ -5267,39 +4124,15 @@
             "id": 48,
             "path": "./signs/GULP-E2-201402AB_id48.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5c0",
-                    "description": "Neck"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1028",
+                "1035",
+                "14c",
+                "203",
+                "335",
+                "5c0"
             ],
             "senses": [
                 {
@@ -5474,43 +4307,16 @@
             "id": 49,
             "path": "./signs/GULP-E8-201402ST_id49.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1c5",
-                    "description": "Middle Hinge"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5c0",
-                    "description": "Neck"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "1c5",
+                "335",
+                "5c0"
             ],
             "senses": [
                 {
@@ -5592,43 +4398,16 @@
             "id": 50,
             "path": "./signs/STOMACH-CLENCH-E2-201402PG_id50.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5a0",
-                    "description": "Lower torso"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1035",
+                "14c",
+                "335",
+                "5a0"
             ],
             "senses": [
                 {
@@ -5700,39 +4479,15 @@
             "id": 51,
             "path": "./signs/HEARING-E2-201402SR_id51.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1023",
-                    "description": "Circular"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "5f8",
-                    "description": "Chin"
-                }
+            "component_codes": [
+                "100",
+                "1001",
+                "1012",
+                "1023",
+                "1027",
+                "1029",
+                "1035",
+                "5f8"
             ],
             "senses": [
                 {
@@ -5997,39 +4752,15 @@
             "id": 52,
             "path": "./signs/16101 Adan-INSTITUTE_id52.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "192",
-                    "description": "Baby Up"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1002",
+                "1012",
+                "1021",
+                "1027",
+                "1029",
+                "1030",
+                "192",
+                "500"
             ],
             "senses": [
                 {
@@ -6106,43 +4837,16 @@
             "id": 53,
             "path": "./signs/LAPTOP-E2-201402AB_id53.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "180",
-                    "description": "Hinge, Thumb Side"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1002",
+                "1011",
+                "1012",
+                "1022",
+                "1027",
+                "1029",
+                "1035",
+                "180",
+                "500"
             ],
             "senses": [
                 {
@@ -6214,43 +4918,16 @@
             "id": 54,
             "path": "./signs/LAPTOP-E2-201402SR_id54.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "15d",
-                    "description": "Flat, Thumb Side"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1002",
+                "1011",
+                "1012",
+                "1022",
+                "1027",
+                "1028",
+                "1030",
+                "15d",
+                "500"
             ],
             "senses": [
                 {
@@ -6373,39 +5050,15 @@
             "id": 55,
             "path": "./signs/LINCOLN-E2-201402SR_id55.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1dc",
-                    "description": "Index Thumb Side"
-                },
-                {
-                    "code": "668",
-                    "description": "Temple, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1022",
+                "1026",
+                "1028",
+                "1030",
+                "1dc",
+                "668"
             ],
             "senses": [
                 {
@@ -6477,39 +5130,15 @@
             "id": 56,
             "path": "./signs/MOUSE-E2-201402-SR_id56.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "618",
-                    "description": "Nose"
-                }
+            "component_codes": [
+                "100",
+                "1001",
+                "1012",
+                "1021",
+                "1027",
+                "1029",
+                "1030",
+                "618"
             ],
             "senses": [
                 {
@@ -6581,39 +5210,15 @@
             "id": 57,
             "path": "./signs/OBAMA-E2-201402SR_id57.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1005",
-                    "description": "Fingerspelled (mostly lexicalized)"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "147",
-                    "description": "Four Fingers Unit"
-                },
-                {
-                    "code": "176",
-                    "description": "Circle"
-                },
-                {
-                    "code": "5a8",
-                    "description": "Chest, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1005",
+                "1010",
+                "1011",
+                "1028",
+                "147",
+                "176",
+                "5a8"
             ],
             "senses": [
                 {
@@ -6685,39 +5290,15 @@
             "id": 58,
             "path": "./signs/OFFICE-E2-201402SR_id58.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "16d",
-                    "description": "Cup"
-                },
-                {
-                    "code": "5b8",
-                    "description": "Chest, weak side"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "16d",
+                "5b8"
             ],
             "senses": [
                 {
@@ -6872,35 +5453,14 @@
             "id": 59,
             "path": "./signs/OFFICE2-E5-201402AB_id59.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "176",
-                    "description": "Circle"
-                }
+            "component_codes": [
+                "1003",
+                "1011",
+                "1012",
+                "1022",
+                "1027",
+                "1028",
+                "176"
             ],
             "senses": [
                 {
@@ -6977,35 +5537,14 @@
             "id": 60,
             "path": "./signs/OFFICE2-E2-201402AB_id60.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1024",
-                    "description": "Complex"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "177",
-                    "description": "Oval"
-                }
+            "component_codes": [
+                "1001",
+                "1011",
+                "1012",
+                "1024",
+                "1027",
+                "1028",
+                "177"
             ],
             "senses": [
                 {
@@ -7077,35 +5616,14 @@
             "id": 61,
             "path": "./signs/OFFICE(2)_id61.mp4",
             "hash": "09bde00394933742fcc71e25cf7f84ff",
-            "components": [
-                {
-                    "code": "1005",
-                    "description": "Fingerspelled (mostly lexicalized)"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "14a",
-                    "description": "Four Fingers Unit Bent"
-                },
-                {
-                    "code": "16d",
-                    "description": "Cup"
-                },
-                {
-                    "code": "176",
-                    "description": "Circle"
-                },
-                {
-                    "code": "192",
-                    "description": "Baby Up"
-                },
-                {
-                    "code": "1ce",
-                    "description": "Middle Ring Baby on Circle"
-                }
+            "component_codes": [
+                "1005",
+                "1010",
+                "14a",
+                "16d",
+                "176",
+                "192",
+                "1ce"
             ],
             "senses": [
                 {
@@ -7177,35 +5695,14 @@
             "id": 62,
             "path": "./signs/OOPS-E2-201402SR_id62.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "1f7",
-                    "description": "Thumb Side Diagonal"
-                },
-                {
-                    "code": "618",
-                    "description": "Nose"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1028",
+                "1030",
+                "14c",
+                "1f7",
+                "618"
             ],
             "senses": [
                 {
@@ -7277,39 +5774,15 @@
             "id": 63,
             "path": "./signs/OUTSIDE-E2-201402ST_id63.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "185",
-                    "description": "Angle"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1012",
+                "1021",
+                "1026",
+                "1029",
+                "14c",
+                "185"
             ],
             "senses": [
                 {
@@ -7407,43 +5880,16 @@
             "id": 64,
             "path": "./signs/OUTSIDE2-E2-201402SR_id64.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "154",
-                    "description": "Five Fingers Spread Cup Open"
-                },
-                {
-                    "code": "570",
-                    "description": "Top of shoulder, weak side"
-                },
-                {
-                    "code": "578",
-                    "description": "Top of shoulder, strong side"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "154",
+                "570",
+                "578"
             ],
             "senses": [
                 {
@@ -7515,51 +5961,18 @@
             "id": 65,
             "path": "./signs/OUTSIDE-E5-201402AB_id65.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "16f",
-                    "description": "Cup, Thumb Side"
-                },
-                {
-                    "code": "17e",
-                    "description": "Hinge Small"
-                },
-                {
-                    "code": "185",
-                    "description": "Angle"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1002",
+                "1010",
+                "1012",
+                "1021",
+                "1026",
+                "1029",
+                "1035",
+                "16f",
+                "17e",
+                "185",
+                "500"
             ],
             "senses": [
                 {
@@ -7631,23 +6044,11 @@
             "id": 66,
             "path": "./signs/P-E2-201402SR_id66.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1005",
-                    "description": "Fingerspelled (mostly lexicalized)"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "105",
-                    "description": "Index on Angle"
-                }
+            "component_codes": [
+                "1001",
+                "1005",
+                "1028",
+                "105"
             ],
             "senses": [
                 {
@@ -7719,23 +6120,11 @@
             "id": 67,
             "path": "./signs/P-E1-201402AB_id67.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1005",
-                    "description": "Fingerspelled (mostly lexicalized)"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "140",
-                    "description": "Middle Thumb Angle Out, Index Up"
-                }
+            "component_codes": [
+                "1001",
+                "1005",
+                "1028",
+                "140"
             ],
             "senses": [
                 {
@@ -7801,47 +6190,17 @@
             "id": 68,
             "path": "./signs/PAH-E2-201402SR_id68.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5c8",
-                    "description": "Low side of head, weak side"
-                },
-                {
-                    "code": "5d0",
-                    "description": "Low side of head, strong side"
-                }
+            "component_codes": [
+                "100",
+                "1003",
+                "1011",
+                "1012",
+                "1022",
+                "1026",
+                "1028",
+                "335",
+                "5c8",
+                "5d0"
             ],
             "senses": [
                 {
@@ -7951,43 +6310,16 @@
             "id": 69,
             "path": "./signs/PING-E2-201402ST_id69.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "1c5",
-                    "description": "Middle Hinge"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5b0",
-                    "description": "Chest (center)"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1030",
+                "1c5",
+                "335",
+                "5b0"
             ],
             "senses": [
                 {
@@ -8095,43 +6427,16 @@
             "id": 70,
             "path": "./signs/PIZZA-E2-201402SR_id70.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1005",
-                    "description": "Fingerspelled (mostly lexicalized)"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "105",
-                    "description": "Index on Angle"
-                },
-                {
-                    "code": "10a",
-                    "description": "Index Cup"
-                },
-                {
-                    "code": "192",
-                    "description": "Baby Up"
-                },
-                {
-                    "code": "1f7",
-                    "description": "Thumb Side Diagonal"
-                }
+            "component_codes": [
+                "1001",
+                "1005",
+                "1010",
+                "1011",
+                "1028",
+                "105",
+                "10a",
+                "192",
+                "1f7"
             ],
             "senses": [
                 {
@@ -8208,31 +6513,13 @@
             "id": 72,
             "path": "./signs/PIZZA-E2-201402AB_id72.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "1ed",
-                    "description": "Index Thumb Cup Open"
-                },
-                {
-                    "code": "600",
-                    "description": "Lips"
-                }
+            "component_codes": [
+                "1001",
+                "1011",
+                "1029",
+                "1035",
+                "1ed",
+                "600"
             ],
             "senses": [
                 {
@@ -8304,43 +6591,16 @@
             "id": 73,
             "path": "./signs/PIZZA-E5-201402AB_id73.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1005",
-                    "description": "Fingerspelled (mostly lexicalized)"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "118",
-                    "description": "Index Middle Unit, Cup"
-                },
-                {
-                    "code": "140",
-                    "description": "Middle Thumb Angle Out, Index Up"
-                },
-                {
-                    "code": "192",
-                    "description": "Baby Up"
-                },
-                {
-                    "code": "1f7",
-                    "description": "Thumb Side Diagonal"
-                }
+            "component_codes": [
+                "1001",
+                "1005",
+                "1010",
+                "1011",
+                "1028",
+                "118",
+                "140",
+                "192",
+                "1f7"
             ],
             "senses": [
                 {
@@ -8417,31 +6677,13 @@
             "id": 74,
             "path": "./signs/PIZZA-E8-201402AB_id74.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1005",
-                    "description": "Fingerspelled (mostly lexicalized)"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "121",
-                    "description": "Index Middle Bent, Thumb Straight"
-                },
-                {
-                    "code": "1f7",
-                    "description": "Thumb Side Diagonal"
-                }
+            "component_codes": [
+                "1001",
+                "1005",
+                "1010",
+                "1028",
+                "121",
+                "1f7"
             ],
             "senses": [
                 {
@@ -8513,55 +6755,19 @@
             "id": 75,
             "path": "./signs/RECENT-E2-201402SR_id75.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "106",
-                    "description": "Index Bent"
-                },
-                {
-                    "code": "32a",
-                    "description": "Cheek movement"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "370",
-                    "description": "Other non-manual movement"
-                },
-                {
-                    "code": "5f4",
-                    "description": "In front of head"
-                },
-                {
-                    "code": "6a0",
-                    "description": "Jaw back, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1025",
+                "1028",
+                "1035",
+                "106",
+                "32a",
+                "335",
+                "370",
+                "5f4",
+                "6a0"
             ],
             "senses": [
                 {
@@ -8664,55 +6870,19 @@
             "id": 76,
             "path": "./signs/RECENT-E5-201402SR_id76.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "106",
-                    "description": "Index Bent"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "370",
-                    "description": "Other non-manual movement"
-                },
-                {
-                    "code": "5f4",
-                    "description": "In front of head"
-                },
-                {
-                    "code": "6a0",
-                    "description": "Jaw back, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1035",
+                "106",
+                "335",
+                "370",
+                "5f4",
+                "6a0"
             ],
             "senses": [
                 {
@@ -8789,35 +6959,14 @@
             "id": 77,
             "path": "./signs/SIGN-E1-201402AB_id77.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1023",
-                    "description": "Circular"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                }
+            "component_codes": [
+                "100",
+                "1003",
+                "1012",
+                "1023",
+                "1027",
+                "1029",
+                "335"
             ],
             "senses": [
                 {
@@ -8883,51 +7032,18 @@
             "id": 78,
             "path": "./signs/SIGN-FLUENTLY-E3-201402AB_id78.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1024",
-                    "description": "Complex"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5c8",
-                    "description": "Low side of head, weak side"
-                },
-                {
-                    "code": "5d0",
-                    "description": "Low side of head, strong side"
-                }
+            "component_codes": [
+                "1003",
+                "1010",
+                "1012",
+                "1024",
+                "1027",
+                "1028",
+                "14c",
+                "203",
+                "335",
+                "5c8",
+                "5d0"
             ],
             "senses": [
                 {
@@ -8999,43 +7115,16 @@
             "id": 79,
             "path": "./signs/SIGN-FLUENTLY-E8-201402AB_id79.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1023",
-                    "description": "Circular"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                }
+            "component_codes": [
+                "1003",
+                "1010",
+                "1012",
+                "1023",
+                "1027",
+                "1029",
+                "14c",
+                "203",
+                "335"
             ],
             "senses": [
                 {
@@ -9101,35 +7190,14 @@
             "id": 80,
             "path": "./signs/SIGN-FLUENT-EA-201402SR_id80.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1023",
-                    "description": "Circular"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                }
+            "component_codes": [
+                "100",
+                "1003",
+                "1012",
+                "1023",
+                "1027",
+                "1029",
+                "335"
             ],
             "senses": [
                 {
@@ -9195,51 +7263,18 @@
             "id": 81,
             "path": "./signs/SLOW-E5-201402SR_id81.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1005",
-                    "description": "Fingerspelled (mostly lexicalized)"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "176",
-                    "description": "Circle"
-                },
-                {
-                    "code": "186",
-                    "description": "Index Middle Ring"
-                },
-                {
-                    "code": "1dc",
-                    "description": "Index Thumb Side"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                }
+            "component_codes": [
+                "1001",
+                "1005",
+                "1010",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "176",
+                "186",
+                "1dc",
+                "203"
             ],
             "senses": [
                 {
@@ -9305,47 +7340,17 @@
             "id": 82,
             "path": "./signs/SLOW-E8-201402SR_id82.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "15d",
-                    "description": "Flat, Thumb Side"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                },
-                {
-                    "code": "520",
-                    "description": "Wrist"
-                },
-                {
-                    "code": "530",
-                    "description": "Lower arm"
-                }
+            "component_codes": [
+                "1002",
+                "1012",
+                "1021",
+                "1025",
+                "1028",
+                "1030",
+                "15d",
+                "500",
+                "520",
+                "530"
             ],
             "senses": [
                 {
@@ -9411,39 +7416,15 @@
             "id": 83,
             "path": "./signs/SLOW2-E8-201402ST_id83.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "19a",
-                    "description": "Baby Thumb"
-                },
-                {
-                    "code": "668",
-                    "description": "Temple, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "1035",
+                "19a",
+                "668"
             ],
             "senses": [
                 {
@@ -9535,39 +7516,15 @@
             "id": 84,
             "path": "./signs/TALL-E2-201402AB_id84.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "19a",
-                    "description": "Baby Thumb"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1021",
+                "1027",
+                "1029",
+                "1030",
+                "19a",
+                "500"
             ],
             "senses": [
                 {
@@ -9639,43 +7596,16 @@
             "id": 85,
             "path": "./signs/TALL-E2-201402SR_id85.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "15d",
-                    "description": "Flat, Thumb Side"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                }
+            "component_codes": [
+                "100",
+                "1002",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1030",
+                "15d",
+                "500"
             ],
             "senses": [
                 {
@@ -9747,39 +7677,15 @@
             "id": 86,
             "path": "./signs/TALL3-E2-201402SR_id86.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "180",
-                    "description": "Hinge, Thumb Side"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "5e0",
-                    "description": "High side of head, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1026",
+                "1028",
+                "180",
+                "335",
+                "5e0"
             ],
             "senses": [
                 {
@@ -9845,43 +7751,16 @@
             "id": 87,
             "path": "./signs/THIN-E5-201402SR_id87.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "1f0",
-                    "description": "Index Thumb Hinge"
-                },
-                {
-                    "code": "32a",
-                    "description": "Cheek movement"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1035",
+                "1f0",
+                "32a",
+                "335"
             ],
             "senses": [
                 {
@@ -9953,43 +7832,16 @@
             "id": 88,
             "path": "./signs/THIN-E2-201402SR_id88.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "192",
-                    "description": "Baby Up"
-                },
-                {
-                    "code": "32a",
-                    "description": "Cheek movement"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                }
+            "component_codes": [
+                "1003",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1035",
+                "192",
+                "32a",
+                "335"
             ],
             "senses": [
                 {
@@ -10087,35 +7939,14 @@
             "id": 89,
             "path": "./signs/THIN-E5-201402ST_id89.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "192",
-                    "description": "Baby Up"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                }
+            "component_codes": [
+                "1001",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "192",
+                "335"
             ],
             "senses": [
                 {
@@ -10187,39 +8018,15 @@
             "id": 90,
             "path": "./signs/THIN-E5-201402AB_id90.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "192",
-                    "description": "Baby Up"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                }
+            "component_codes": [
+                "1002",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1030",
+                "192",
+                "335"
             ],
             "senses": [
                 {
@@ -10291,55 +8098,19 @@
             "id": 91,
             "path": "./signs/TRUE-BIZ-E2-201402SR_id91.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                },
-                {
-                    "code": "500",
-                    "description": "Weak hand"
-                },
-                {
-                    "code": "5f8",
-                    "description": "Chin"
-                }
+            "component_codes": [
+                "100",
+                "1002",
+                "1010",
+                "1012",
+                "1021",
+                "1027",
+                "1029",
+                "1030",
+                "203",
+                "335",
+                "500",
+                "5f8"
             ],
             "senses": [
                 {
@@ -10437,39 +8208,15 @@
             "id": 92,
             "path": "./signs/TURTLE-HEAD-E2-201402SR_id92.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1031",
-                    "description": "Grasp"
-                },
-                {
-                    "code": "16d",
-                    "description": "Cup"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                }
+            "component_codes": [
+                "1002",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1031",
+                "16d",
+                "203"
             ],
             "senses": [
                 {
@@ -10556,43 +8303,16 @@
             "id": 93,
             "path": "./signs/WASHINGTON-E8-201402ST_id93.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1011",
-                    "description": "Change orientation"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1022",
-                    "description": "Curved"
-                },
-                {
-                    "code": "1026",
-                    "description": "Away from body"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "186",
-                    "description": "Index Middle Ring"
-                },
-                {
-                    "code": "578",
-                    "description": "Top of shoulder, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1011",
+                "1012",
+                "1022",
+                "1026",
+                "1028",
+                "1035",
+                "186",
+                "578"
             ],
             "senses": [
                 {
@@ -10664,31 +8384,13 @@
             "id": 94,
             "path": "./signs/WHY-E2-201402SR_id94.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "19b",
-                    "description": "Baby Thumb on Hinge"
-                },
-                {
-                    "code": "5e0",
-                    "description": "High side of head, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1029",
+                "1035",
+                "19b",
+                "5e0"
             ],
             "senses": [
                 {
@@ -10760,31 +8462,13 @@
             "id": 95,
             "path": "./signs/WHY-E5-201402SR_id95.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1035",
-                    "description": "Almost touch (near)"
-                },
-                {
-                    "code": "1c5",
-                    "description": "Middle Hinge"
-                },
-                {
-                    "code": "5e0",
-                    "description": "High side of head, strong side"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1029",
+                "1035",
+                "1c5",
+                "5e0"
             ],
             "senses": [
                 {
@@ -10850,35 +8534,14 @@
             "id": 96,
             "path": "./signs/BUT-E6-201402SR_id96.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1003",
-                    "description": "2-handed: Both move"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1027",
-                    "description": "Not consistent toward/away"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                }
+            "component_codes": [
+                "100",
+                "1003",
+                "1012",
+                "1021",
+                "1027",
+                "1028",
+                "1030"
             ],
             "senses": [
                 {
@@ -10950,35 +8613,14 @@
             "id": 97,
             "path": "./signs/FATHER-heavenly-E5-201402AB_id97.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "670",
-                    "description": "Forehead"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1028",
+                "1029",
+                "1030",
+                "14c",
+                "670"
             ],
             "senses": [
                 {
@@ -11050,31 +8692,13 @@
             "id": 98,
             "path": "./signs/FATHER-heavenly-E8-201402AB_id98.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "14c",
-                    "description": "Five Fingers Spread"
-                },
-                {
-                    "code": "5f8",
-                    "description": "Chin"
-                }
+            "component_codes": [
+                "1001",
+                "1010",
+                "1028",
+                "1030",
+                "14c",
+                "5f8"
             ],
             "senses": [
                 {
@@ -11146,43 +8770,16 @@
             "id": 99,
             "path": "./signs/16101 Adan-DEAF-SCHOOL 2_id99.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "1002",
-                    "description": "2-handed: Only strong hand moves"
-                },
-                {
-                    "code": "1012",
-                    "description": "Hand changes location"
-                },
-                {
-                    "code": "1021",
-                    "description": "Straight"
-                },
-                {
-                    "code": "1025",
-                    "description": "Toward body"
-                },
-                {
-                    "code": "1029",
-                    "description": "Repetition: 2+"
-                },
-                {
-                    "code": "1030",
-                    "description": "Touch"
-                },
-                {
-                    "code": "192",
-                    "description": "Baby Up"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "335",
-                    "description": "Mouth movement"
-                }
+            "component_codes": [
+                "1002",
+                "1012",
+                "1021",
+                "1025",
+                "1029",
+                "1030",
+                "192",
+                "203",
+                "335"
             ],
             "senses": [
                 {
@@ -11280,35 +8877,14 @@
             "id": 100,
             "path": "./signs/160218-Understand_id100.mp4",
             "hash": "",
-            "components": [
-                {
-                    "code": "100",
-                    "description": "Index"
-                },
-                {
-                    "code": "1001",
-                    "description": "1-handed"
-                },
-                {
-                    "code": "1010",
-                    "description": "Change handshape"
-                },
-                {
-                    "code": "1028",
-                    "description": "Repetition: 1x"
-                },
-                {
-                    "code": "203",
-                    "description": "Fist"
-                },
-                {
-                    "code": "5e0",
-                    "description": "High side of head, strong side"
-                },
-                {
-                    "code": "5f4",
-                    "description": "In front of head"
-                }
+            "component_codes": [
+                "100",
+                "1001",
+                "1010",
+                "1028",
+                "203",
+                "5e0",
+                "5f4"
             ],
             "senses": [
                 {
