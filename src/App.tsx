@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react'
+import { withAuthenticator } from 'aws-amplify-react'
 
 import { TopView } from './components/Views'
 import PositionChooser from './components/PositionChooser'
@@ -51,4 +52,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default withAuthenticator(App)
