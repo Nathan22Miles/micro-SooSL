@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "micro-soosl-20190321083600-authRole",
+            "UnauthRoleArn": "arn:aws:iam::600904105576:role/micro-soosl-20190321083600-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::600904105576:role/micro-soosl-20190321083600-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "micro-soosl-20190321083600-deployment",
+            "UnauthRoleName": "micro-soosl-20190321083600-unauthRole",
+            "StackName": "micro-soosl-20190321083600",
+            "StackId": "arn:aws:cloudformation:us-east-1:600904105576:stack/micro-soosl-20190321083600/44313810-4bde-11e9-b3d2-12ece74fd46e"
+        },
+        "categories": {
+            "auth": {
+                "cognito1c0e3bae": {}
+            }
+        }
+    }
+}
