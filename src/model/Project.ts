@@ -1,13 +1,3 @@
-export class Component {
-    code: string
-    description: string
-
-    constructor(doc: any) {
-        this.code = doc.code
-        this.description = doc.description
-    }
-}
-
 export class Dialect {
     id: number
     abbr: string
@@ -87,14 +77,14 @@ export class ExtraMediaFile {
 }
 
 export class GlossText {
-    sens: Sens
+    sense: Sense
     lang_name: string
     lang_id: number
     order: number
     text: string
 
-    constructor(sens: Sens, doc: any) {
-        this.sens = sens
+    constructor(sense: Sense, doc: any) {
+        this.sense = sense
         this.lang_name = doc.lang_name
         this.lang_id = doc.lang_id
         this.order = doc.order
@@ -102,7 +92,7 @@ export class GlossText {
     }
 }
 
-export class Sens {
+export class Sense {
     sign: Sign
     id: number
     dialects: Dialect[]
@@ -133,16 +123,16 @@ export class Sign {
     id: number
     path: string
     hash: string
-    components: Component[]
-    senses: Sens[]
+    component_codes: string[]
+    senses: Sense[]
 
     constructor(doc: any) {
         this.id = doc.id
         this.path = doc.path
         this.hash = doc.hash
+        this.component_codes = doc.component_codes
 
-        this.components = (doc.components || []).map((component: any) => new Component(component))
-        this.senses = (doc.senses || []).map((sense: any) => new Sens(this, sense))
+        this.senses = (doc.senses || []).map((sense: any) => new Sense(this, sense))
     }
 }
 

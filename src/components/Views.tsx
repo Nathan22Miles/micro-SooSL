@@ -1,7 +1,7 @@
 import React, { SFC } from 'react'
 
-import { Component, Dialect, GrammarCategory, GlossText, Sentence,
-         ExtraText, ExtraMediaFile, Sens, Sign, Project } from '../model/Project'
+import { Dialect, GrammarCategory, GlossText, Sentence,
+         ExtraText, ExtraMediaFile, Sense, Sign, Project } from '../model/Project'
 import { Root } from '../Root'
 
 import CitationPlayer from './CitationPlayer'
@@ -53,7 +53,7 @@ const CitationView: SFC<CitationViewProps> = ({root}) => {
     let { selectedGlossText } = root
     if (!selectedGlossText) return null
 
-    let { sign } = selectedGlossText.sens
+    let { sign } = selectedGlossText.sense
     if (!sign) return null
 
     return (
@@ -78,7 +78,7 @@ const GlossTextsView: SFC<GlossTextsViewProps> = ({root}) => {
     let { selectedGlossText } = root
     if (!selectedGlossText) return null
 
-    let { gloss_texts } = selectedGlossText.sens
+    let { gloss_texts } = selectedGlossText.sense
     return (
         <div className="GlossTexts">
             { gloss_texts.map((glossText: GlossText, i) => (
@@ -102,7 +102,7 @@ const SentencesView: SFC<SentencesViewProps> = ({root}) => {
     let { selectedGlossText } = root
     if (!selectedGlossText) return null
 
-    let { sentences } = selectedGlossText.sens
+    let { sentences } = selectedGlossText.sense
 
     return (
         <div className="Sentences">
