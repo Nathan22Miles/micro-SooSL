@@ -3,11 +3,13 @@
 
 export type CreateSignInput = {
   id?: string | null,
+  project: string,
   data: string,
 };
 
 export type UpdateSignInput = {
   id: string,
+  project?: string | null,
   data?: string | null,
 };
 
@@ -17,6 +19,7 @@ export type DeleteSignInput = {
 
 export type ModelSignFilterInput = {
   id?: ModelIDFilterInput | null,
+  project?: ModelStringFilterInput | null,
   data?: ModelStringFilterInput | null,
   and?: Array< ModelSignFilterInput | null > | null,
   or?: Array< ModelSignFilterInput | null > | null,
@@ -57,6 +60,7 @@ export type CreateSignMutation = {
   createSign:  {
     __typename: "Sign",
     id: string,
+    project: string,
     data: string,
   } | null,
 };
@@ -69,6 +73,7 @@ export type UpdateSignMutation = {
   updateSign:  {
     __typename: "Sign",
     id: string,
+    project: string,
     data: string,
   } | null,
 };
@@ -81,6 +86,7 @@ export type DeleteSignMutation = {
   deleteSign:  {
     __typename: "Sign",
     id: string,
+    project: string,
     data: string,
   } | null,
 };
@@ -93,6 +99,7 @@ export type GetSignQuery = {
   getSign:  {
     __typename: "Sign",
     id: string,
+    project: string,
     data: string,
   } | null,
 };
@@ -109,6 +116,7 @@ export type ListSignsQuery = {
     items:  Array< {
       __typename: "Sign",
       id: string,
+      project: string,
       data: string,
     } | null > | null,
     nextToken: string | null,
@@ -119,6 +127,7 @@ export type OnCreateSignSubscription = {
   onCreateSign:  {
     __typename: "Sign",
     id: string,
+    project: string,
     data: string,
   } | null,
 };
@@ -127,6 +136,7 @@ export type OnUpdateSignSubscription = {
   onUpdateSign:  {
     __typename: "Sign",
     id: string,
+    project: string,
     data: string,
   } | null,
 };
@@ -135,6 +145,7 @@ export type OnDeleteSignSubscription = {
   onDeleteSign:  {
     __typename: "Sign",
     id: string,
+    project: string,
     data: string,
   } | null,
 };

@@ -31,3 +31,11 @@ to set breakpoints in your code on the browser for debugging.
     yarn deploy
     -- it might take a few minutes to actually do the update
 
+# Validating returned jwt
+
+You can see the web access for this in the network tab in jwt.io
+
+This is where the public keys come from
+
+https://cognito-idp.us-east-1.amazonaws.com/us-east-1_PMCGh8nfT/.well-known/jwks.json
+

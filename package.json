@@ -1,5 +1,5 @@
 {
-  "homepage": "https://nathan22miles.github.io/micro-SooSL",
+  "homepage": "http://micro-soosl-20190321144009-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
   "name": "micro-soosl",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

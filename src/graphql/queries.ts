@@ -4,6 +4,7 @@
 export const getSign = `query GetSign($id: ID!) {
   getSign(id: $id) {
     id
+    project
     data
   }
 }
@@ -16,6 +17,7 @@ export const listSigns = `query ListSigns(
   listSigns(filter: $filter, limit: $limit, nextToken: $nextToken) {
     items {
       id
+      project
       data
     }
     nextToken

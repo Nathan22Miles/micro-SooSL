@@ -4,6 +4,7 @@
 export const createSign = `mutation CreateSign($input: CreateSignInput!) {
   createSign(input: $input) {
     id
+    project
     data
   }
 }
@@ -11,6 +12,7 @@ export const createSign = `mutation CreateSign($input: CreateSignInput!) {
 export const updateSign = `mutation UpdateSign($input: UpdateSignInput!) {
   updateSign(input: $input) {
     id
+    project
     data
   }
 }
@@ -18,6 +20,7 @@ export const updateSign = `mutation UpdateSign($input: UpdateSignInput!) {
 export const deleteSign = `mutation DeleteSign($input: DeleteSignInput!) {
   deleteSign(input: $input) {
     id
+    project
     data
   }
 }

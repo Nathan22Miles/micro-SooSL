@@ -4,6 +4,7 @@
 export const onCreateSign = `subscription OnCreateSign {
   onCreateSign {
     id
+    project
     data
   }
 }
@@ -11,6 +12,7 @@ export const onCreateSign = `subscription OnCreateSign {
 export const onUpdateSign = `subscription OnUpdateSign {
   onUpdateSign {
     id
+    project
     data
   }
 }
@@ -18,6 +20,7 @@ export const onUpdateSign = `subscription OnUpdateSign {
 export const onDeleteSign = `subscription OnDeleteSign {
   onDeleteSign {
     id
+    project
     data
   }
 }

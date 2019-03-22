@@ -1,4 +1,8 @@
-type Sign @model {
+type Sign @model @auth(rules: [
+  {allow: groups, groupsField: "project"}
+])
+{
   id: ID!
+  project: String!
   data: String!
 }
