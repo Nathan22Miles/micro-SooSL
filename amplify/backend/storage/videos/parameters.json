@@ -1,0 +1,13 @@
+{
+    "bucketName": "micro-soosl4ab435f2647343f89bd261205f5365e8",
+    "authPolicyName": "s3_amplify_6138fe3e",
+    "unauthPolicyName": "s3_amplify_6138fe3e",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authPermissions": "rw",
+    "unauthPermissions": "r"
+}
