@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { observer } from 'mobx-react'
 import { withAuthenticator } from 'aws-amplify-react'
-import { API, graphqlOperation } from 'aws-amplify'
+import { API, graphqlOperation, Storage } from 'aws-amplify'
 
 import { TopView } from './components/Views'
 import PositionChooser from './components/PositionChooser'
@@ -23,6 +23,7 @@ class App extends Component {
 
   root = new Root()
   @observable message = 'Loading...'
+  file: any 
 
   render() {
     this.root.selectedGlossText    // redraw when selected gloss changes
@@ -34,6 +35,8 @@ class App extends Component {
 
     return (
       <div className="App">
+        <input type='file' onChange={this.handleChange} />
+        <button onClick={this.saveFile}>Save File </button>
         <button onClick={this.handleCreateSign}>Create Sign</button>
         <button onClick={this.handleListSigns}>List Signs</button>
         <PositionChooser root={this.root}/>
@@ -71,6 +74,18 @@ class App extends Component {
     const result: any = await API.graphql(graphqlOperation(createSign, {input}))
     const newSign = result.data.createSign
     console.log({newSign})
+  }
+
+  handleChange = (e: any) => {
+    this.file = e.target.files[0]
+    console.log('handleChange', this.file)
+  }
+
+  saveFile = () => {
+    console.log('saveFile')
+    Storage.put(this.file.name, this.file)
+        .then(() => {console.log("success!")})
+        .catch((err: any) => { console.log('ERROR UPLOADING', err)})
   }
 }
 
